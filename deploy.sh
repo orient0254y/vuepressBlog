@@ -10,14 +10,14 @@ npm run build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-echo 'www.zhangyunchen.cc' > CNAME
+echo 'www.orient0254y' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 如果你想要部署到 https://<USERNAME>.github.io https://github.com/orient0254y/orient0254y.github.io.git
-git push -f git@github.com:orient0254y/orient0254y.github.io.git master
+git push -f https://github.com/orient0254y/orient0254y.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:<USERNAME>/vuepress.git master:gh-pages
